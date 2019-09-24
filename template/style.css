@@ -9,6 +9,7 @@
     text-align: center;
     background-image: url("https://i.pinimg.com/originals/5e/4a/f3/5e4af39a086deda0b76a3d3f3fc00fb7.jpg");
     background-repeat: no-repeat;
+    background-position: center;
 }
 
 h1 {
@@ -38,4 +39,8 @@ h1 {
     background-color: black;
     color: white;
     width: 100%;
+}
+
+#content {
+    color: red;
 }
