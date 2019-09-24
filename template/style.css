@@ -1,0 +1,30 @@
+.wrap {
+    background-color: bisque;
+}
+
+#comic {
+    text-align: center;
+}
+
+h1 {
+    text-align: center;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 40px;
+}
+
+#right-align {
+    text-align: center;
+}
+
+#comic-button {
+    border-radius: 80%;
+    font-size: 40px;
+    width: 350px;
+    height: 100px;
+}
+
+#comic-button:hover {
+    color: rgb(221, 168, 168);
+    background-color: rgb(69, 69, 71);
+    
+}
