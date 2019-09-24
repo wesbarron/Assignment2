@@ -12,8 +12,7 @@ function config($key = '')
         'site_url' => 'https://assignment2randomcomic.herokuapp.com',
         'nav_menu' => [
             '' => 'Home',
-            'about-me' => 'About Me',
-            'diy-conversion' => 'DIY Conversion'
+            'about' => 'About'
         ],
         'template_path' => 'template',
         'content_path' => 'content',
