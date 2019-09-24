@@ -6,5 +6,5 @@
     $json = file_get_contents($new_url);
     $obj = json_decode($json);
     echo "<h1>".$obj->title."</h1>" . "<h2>Year Published: ".$obj->year."</h2>";
-    echo "<img src='" . $obj->img . "' width='800px' height='300px' alt='Coming Soon!'>";
+    echo "<img src='" . $obj->img . "' width='1000px' height='500px' alt='Coming Soon!'>";
 ?>
