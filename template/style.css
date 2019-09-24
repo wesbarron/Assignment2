@@ -7,11 +7,8 @@
 
 #comic {
     text-align: center;
-    background-image: url("https://i.pinimg.com/originals/5e/4a/f3/5e4af39a086deda0b76a3d3f3fc00fb7.jpg");
     background-repeat: no-repeat;
     background-position: center;
-    height: 530px;
-    width: 1000px;
     color: rgb(255, 255, 255);
 }
 
@@ -39,7 +36,8 @@ h1 {
 }
 
 #header {
-    background-color: black;
+    background-image: url("https://i.pinimg.com/originals/5e/4a/f3/5e4af39a086deda0b76a3d3f3fc00fb7.jpg");
+    background-size: 100%;
     color: white;
     width: 100%;
     height: auto;
