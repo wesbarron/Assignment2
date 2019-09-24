@@ -1,7 +1,5 @@
 <?php
 
-//echo $_POST["method"]();
-
 /**
  * Displays site name.
  */
