@@ -1,7 +1,3 @@
 <?php
-    $search_url = generate_new_comic();
-    $json = file_get_contents($search_url);
-    $obj = json_decode($json);
-    echo "<h2>".$obj->title."</h2>" . "<p>Year Published: ".$obj->year."</p>";
-    echo "<img src='" . $obj->img . "' width='600px' height='300px' alt='Coming Soon!'>";
+   first_comic();
 ?>
