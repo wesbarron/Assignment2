@@ -68,7 +68,7 @@ function generate_new_comic() {
     $original_url = 'http://xkcd.com/614/info.0.json';
     $random_number = rand(1,1220);
     $new_url = substr_replace($original_url, $random_number, 16,-12);
-      return ($new_url);  
+      return ($new_url);
 }
 /**
  * Pulls JSON Data from URL.
@@ -76,10 +76,10 @@ function generate_new_comic() {
 function get_comic() {
     $search_url = generate_new_comic();
     $json = file_get_contents($search_url);
-    $obj = json_decode($json); 
+    $obj = json_decode($json);
     echo "<h2>".$obj->title."</h2>" . "<p>Year Published: ".$obj->year."</p>";
     echo "<img src='" . $obj->img . "' width='600px' height='300px' alt='Coming Soon!'>";
-    
+
 }
 /**
  * Get First Comic.
@@ -88,7 +88,7 @@ function first_comic() {
     $search_url = 'http://xkcd.com/info.0.json';
     $json = file_get_contents($search_url);
     $obj = json_decode($json);
-    echo "<h2>".$obj->title."</h2>" . "<p>Year Published: ".$obj->year."</p>";
+    echo "<h1>".$obj->title."</h1>" . "<h2>Year Published: ".$obj->year."</h2>";
     echo "<img src='" . $obj->img . "' width='600px' height='300px' alt='Coming Soon!'>";
 }
 /**
