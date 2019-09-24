@@ -1,5 +1,5 @@
-.wrap {
-    background-color: bisque;
+html {
+    background-image: "https://i.pinimg.com/originals/5e/4a/f3/5e4af39a086deda0b76a3d3f3fc00fb7.jpg";
 }
 
 #comic {
@@ -26,5 +26,5 @@ h1 {
 #comic-button:hover {
     color: rgb(221, 168, 168);
     background-color: rgb(69, 69, 71);
-    
+
 }
