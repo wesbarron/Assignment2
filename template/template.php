@@ -26,7 +26,7 @@
                 <a class="navbar-brand" href="#">Logo</a>
                 <ul class="navbar-nav">
                     <li class="nav-item">
-                    <a class="nav-link" href="home.phtml">Home</a>
+                    <a class="nav-link" href="content/home.phtml">Home</a>
                     </li>
                 </ul>
                 </nav>
