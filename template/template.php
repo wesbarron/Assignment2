@@ -6,6 +6,8 @@
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
     <script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
     <script>
+
+    //Button click function and Ajax call.
     $(document).ready(function() {
         $("button").click(function() {
             $.get("template/comic.php", function(data, status) {
