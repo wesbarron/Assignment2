@@ -36,7 +36,7 @@
                 <a class="navbar-brand" href="#">Navbar</a>
 
 
-                <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="collapsibleNavbar">
+                <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#collapsibleNavbar">
                     <span class="navbar-toggler-icon"></span>
                     </button>
 
