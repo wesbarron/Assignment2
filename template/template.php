@@ -7,6 +7,8 @@
     <link href="template/style.css" rel="stylesheet" type="text/css" />
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
     <script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <script src="/docs/4.3/dist/js/bootstrap.bundle.min.js"></script>
+
     <script>
 
     //Button click function and Ajax call.
