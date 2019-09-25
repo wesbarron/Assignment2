@@ -27,7 +27,7 @@
         <div id="header">
             <header>
             <div class="jumbotron">
-             <h2><?php site_name(); ?></h2>
+             <div id="site-name"><h2><?php site_name(); ?></h2></div>
              </div>
                 <nav class="navbar navbar-expand-sm bg-dark navbar-dark fixed-top">
                 <a class="navbar-brand" href="#">Logo</a>
