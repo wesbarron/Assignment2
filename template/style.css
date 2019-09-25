@@ -65,7 +65,7 @@ h1 {
     color: white;
 }
 
-.item:active {
+.item:hover {
     background-color: silver;
     color: black;
 }
