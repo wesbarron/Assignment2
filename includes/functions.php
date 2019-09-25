@@ -101,7 +101,7 @@ function first_comic() {
     $json = file_get_contents($search_url);
     $obj = json_decode($json);
     echo "<h1>".$obj->title."</h1>" . "<h2>Year Published: ".$obj->year."</h2>";
-    echo "<img src='" . $obj->img . "' width='60%' height='25%' alt='Coming Soon!'>";
+    echo "<img src='" . $obj->img . "' width='55%' height='15%' alt='Coming Soon!'>";
 }
 /**
  * Starts everything and displays the template.
