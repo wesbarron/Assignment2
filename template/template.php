@@ -11,7 +11,7 @@
 
     //Button click function and Ajax call.
     $(document).ready(function() {
-        $("button").click(function() {
+        $("#comic-button").click(function() {
             $.get("template/comic.php", function(data, status) {
                 $("#comic").html(data);
 
@@ -29,11 +29,9 @@
             <div class="jumbotron">
              <div id="site-name"><h2><?php site_name(); ?></h2></div>
              </div>
-
             </header>
-        </div>
 
-        <!--Navbar-->
+         <!--Navbar-->
         <nav class="navbar navbar-expand-md bg-dark navbar-dark">
                 <a class="navbar-brand" href="#">Navbar</a>
 
@@ -51,6 +49,7 @@
                 </div>
                 </nav>
 
+        </div>
 
         <div id="content">
 
