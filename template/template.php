@@ -27,7 +27,7 @@
                 <nav class="navbar navbar-expand-sm bg-dark navbar-dark fixed-top">
                 <a class="navbar-brand" href="#">Logo</a>
                 <ul class="navbar-nav">
-                    <?php nav_bar(); ?>
+                    <div id="link"><?php nav_bar(); ?></div>
                     </li>
                 </ul>
                 </nav>
