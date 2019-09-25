@@ -2,6 +2,8 @@
 <html lang="en">
 <head>
     <title><?php page_title(); ?> | <?php site_name(); ?></title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial scale=1">
     <link href="template/style.css" rel="stylesheet" type="text/css" />
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
     <script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
