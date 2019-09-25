@@ -33,20 +33,26 @@
             </header>
         </div>
 
-        <div id="content">
         <!--Navbar-->
         <nav class="navbar navbar-expand-md bg-dark navbar-dark">
                 <a class="navbar-brand" href="#">Navbar</a>
-                <ul class="navbar-nav">
+
 
                 <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="collapsibleNavbar">
                     <span class="navbar-toggler-icon"></span>
                     </button>
 
-                    <div id="link"><?php nav_bar(); ?></div>
+                    <div class="collapse navbar-collapse" id="collapsibleNavbar">
+                    <ul class="navbar-nav">
+                    <li class="nav-item">
+                    <?php nav_bar(); ?>
                     </li>
                 </ul>
+                </div>
                 </nav>
+
+
+        <div id="content">
 
             <article>
 
