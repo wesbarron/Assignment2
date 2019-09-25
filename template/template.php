@@ -36,7 +36,7 @@
         </div>
         <div id="content">
             <article>
-                <div class ="jumbotron"><h2><?php page_title(); ?></h2></div>
+                <h2><?php page_title(); ?></h2>
                 <div id="right-align"><?php page_content(); ?><div>
                 <br>
                 <div id="comic">
