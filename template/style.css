@@ -46,3 +46,8 @@ h1 {
 #content {
     color: rgb(216, 216, 224);
 }
+
+.navbar-nav {
+    text-decoration: none;
+    color: white;
+}
