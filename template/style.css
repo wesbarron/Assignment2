@@ -51,3 +51,12 @@ h1 {
     text-decoration: none;
     color: white;
 }
+
+a {
+    color: white;
+}
+
+a:active {
+    background-color: silver;
+    color: black;
+}
