@@ -28,7 +28,6 @@
             <header>
             <div class="jumbotron">
              <div id="site-name"><h2><?php site_name(); ?></h2></div>
-             </div>
 
          <!--Navbar-->
         <nav class="navbar navbar-expand-md bg-dark navbar-dark">
@@ -48,6 +47,7 @@
                 </div>
                 </nav>
                 </header>
+                </div>
 
         </div>
 
