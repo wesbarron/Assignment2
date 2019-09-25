@@ -26,6 +26,9 @@
     <div class="wrap">
         <div id="header">
             <header>
+            <div class="jumbotron">
+             <h2><?php page_title(); ?></h2>
+             </div>
                 <nav class="navbar navbar-expand-sm bg-dark navbar-dark fixed-top">
                 <a class="navbar-brand" href="#">Logo</a>
                 <ul class="navbar-nav">
@@ -38,7 +41,7 @@
         </div>
         <div id="content">
             <article>
-                <h2><?php page_title(); ?></h2>
+               
                 <div id="right-align"><?php page_content(); ?><div>
                 <br>
                 <div id="comic">
