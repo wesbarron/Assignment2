@@ -52,15 +52,6 @@ h1 {
     color: white;
 }
 
-#link {
-    color: white;
-}
-
-#link:active {
-    background-color: silver;
-    color: black;
-}
-
 .item {
     color: white;
 }
@@ -68,4 +59,8 @@ h1 {
 .item:hover {
     background-color: silver;
     color: black;
+}
+
+.item::selection {
+    background-color: red;
 }
