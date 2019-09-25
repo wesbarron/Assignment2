@@ -59,8 +59,9 @@ h1 {
 .item:hover {
     background-color: silver;
     color: black;
+    text-decoration: none;
 }
 
-.item::selection {
+.item:active {
     background-color: red;
 }
