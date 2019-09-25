@@ -29,17 +29,25 @@
             <div class="jumbotron">
              <div id="site-name"><h2><?php site_name(); ?></h2></div>
              </div>
-                <nav class="navbar navbar-expand-sm bg-dark navbar-dark fixed-top">
-                <a class="navbar-brand" href="#">Logo</a>
+
+            </header>
+        </div>
+
+        <div id="content">
+        <!--Navbar-->
+        <nav class="navbar navbar-expand-md bg-dark navbar-dark">
+                <a class="navbar-brand" href="#">Navbar</a>
                 <ul class="navbar-nav">
+
+                <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="collapsibleNavbar">
+                    <span class="navbar-toggler-icon"></span>
+                    </button>
+
                     <div id="link"><?php nav_bar(); ?></div>
                     </li>
                 </ul>
                 </nav>
 
-            </header>
-        </div>
-        <div id="content">
             <article>
 
                 <div id="right-align"><?php page_content(); ?><div>
