@@ -23,14 +23,7 @@
 </head>
 <body>
 
-    <div class="wrap">
-        <div id="header">
-            <header>
-            <div class="jumbotron">
-             <div id="site-name"><h2><?php site_name(); ?></h2></div>
-            </div>
-
-         <!--Navbar-->
+     <!--Navbar-->
         <nav class="navbar navbar-expand-md bg-dark navbar-dark">
                 <a class="navbar-brand" href="#">Navbar</a>
 
@@ -42,12 +35,19 @@
                     <div class="collapse navbar-collapse" id="collapsibleNavbar">
                     <ul class="navbar-nav">
                     <li class="nav-item">
-                    <a class="nav-link" href=" . <?php nav_bar(); ?> . "><?php  nav_bar(); ?></a>
+                    <a class="nav-link" href="#"><?php  nav_bar(); ?></a>
                     </li>
                 </ul>
                 </div>
                 </nav>
-                </header>
+
+    <div class="wrap">
+        <div id="header">
+            <header>
+            <div class="jumbotron">
+             <div id="site-name"><h2><?php site_name(); ?></h2></div>
+            </div>
+            </header>
 
 
         </div>
