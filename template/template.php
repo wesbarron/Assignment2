@@ -29,7 +29,6 @@
             <div class="jumbotron">
              <div id="site-name"><h2><?php site_name(); ?></h2></div>
              </div>
-            </header>
 
          <!--Navbar-->
         <nav class="navbar navbar-expand-md bg-dark navbar-dark">
@@ -43,11 +42,12 @@
                     <div class="collapse navbar-collapse" id="collapsibleNavbar">
                     <ul class="navbar-nav">
                     <li class="nav-item">
-                    <?php nav_bar(); ?>
+                    <a class="nav-link"><?php nav_bar(); ?></a>
                     </li>
                 </ul>
                 </div>
                 </nav>
+                </header>
 
         </div>
 
