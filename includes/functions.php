@@ -97,8 +97,8 @@ function get_comic() {
  * Get First Comic.
  */
 function first_comic() {
-    $search_url = 'http://xkcd.com/info.0.json';
-    $json = file_get_contents($search_url);
+    $current_url = 'http://xkcd.com/info.0.json';
+    $json = file_get_contents($current_url);
     $obj = json_decode($json);
     echo "<h1>".$obj->title."</h1>" . "<h2>Year Published: ".$obj->year."</h2>";
     echo "<img src='" . $obj->img . "' width='55%' height='15%' alt='Coming Soon!'>";
