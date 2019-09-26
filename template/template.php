@@ -67,7 +67,6 @@
                 <div id="comic">
                     <?php first_comic(); ?>
                     <br><br>
-
                 </div>
             </article>
         </div>
