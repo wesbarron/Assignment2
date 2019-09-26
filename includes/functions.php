@@ -77,9 +77,11 @@ function page_content()
  * Generates a new URL with random link location.
  */
 function generate_new_comic() {
-    $original_url = 'http://xkcd.com/614/info.0.json';
+    //$original_url = 'http://xkcd.com/614/info.0.json';
+    $first_url = 'http://xkcd.com/';
+    $last_url = '/info.0.json';
     $random_number = rand(1,1220);
-    $new_url = substr_replace($original_url, $random_number, 16,-12);
+    $new_url = $first_url . $random_number . $last_url;//substr_replace($original_url, $random_number, 16,-12);
       return ($new_url);
 }
 /**
