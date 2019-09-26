@@ -56,7 +56,7 @@ function nav_bar()
  */
 function page_title()
 {
-    $page = isset($_GET['page']) ? htmlspecialchars($_GET['page']) : 'Home';
+    $page = isset($_GET['page']) ? htmlspecialchars($_GET['page']) : 'Original Comic';
     echo ucwords(str_replace('-', ' ', $page));
 }
 /**
@@ -78,8 +78,6 @@ function page_content()
  */
 function generate_new_comic() {
     $original_url = 'http://xkcd.com/614/info.0.json';
-    //$first_url = 'http://xkcd.com/';
-    //$last_url = '/info.0.json';
     $random_number = rand(1,1220);
     $new_url = substr_replace($original_url, $random_number, 16,-12);
       return ($new_url);
