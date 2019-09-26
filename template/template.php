@@ -27,7 +27,7 @@
 
      <!--Navbar-->
         <nav class="navbar navbar-expand-md bg-dark navbar-dark">
-                <a class="navbar-brand" href="#">Navbar</a>
+                <a class="navbar-brand" href="#"><?php site_name() ?></a>
 
 
                 <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#collapsibleNavbar">
@@ -47,7 +47,7 @@
         <div id="header">
             <header>
             <div class="jumbotron">
-             <div id="site-name"><h2><?php site_name(); ?></h2></div>
+             <div id="site-name"><h2><?php page_title(); ?></h2></div>
             </div>
             </header>
 
