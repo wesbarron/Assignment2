@@ -18,8 +18,8 @@
 
     //Button click function and Ajax call.
     $(document).ready(function() {
-        $("#comic-button").click(function() {
-            $.get("/template/comic.php", function(data, status) {
+        $("button").click(function() {
+            $.get("template/comic.php", function(data, status) {
                 $("#comic").html(data);
 
             })
