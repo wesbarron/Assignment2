@@ -1,5 +1,17 @@
 
+ <script>
+    $(document).ready(function() {
+        $("button").click(function() {
+            $.get("template/comic.php", function(data, status) {
+                $("#comic").html(data);
+                alert(status);
+
+            })
+        })
+    })
+</script>
+
 <h2>How many comics can you count?</h2>
 
 
-<button id="comic-button">Click Here</Button>
+<button id="comic-button">Click Here</button>
