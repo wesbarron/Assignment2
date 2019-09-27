@@ -10,5 +10,5 @@
     $obj = json_decode($json);
     echo "<h1>".$obj->title."</h1>" . "<h2>Year Published: ".$obj->year."</h2>";
     echo "<img src='" . $obj->img . "' width='55%' height='15%' alt='Coming Soon!'>";
-
+    alert($new_url);
 ?>

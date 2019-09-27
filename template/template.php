@@ -12,8 +12,9 @@
     <script>
     $(document).ready(function() {
         $("button").click(function() {
-            $.post("template/comic.php", function(data, status) {
+            $.get("template/comic.php", function(data, status) {
                 $("#comic").html(data);
+                alert(status);
 
             })
         })
