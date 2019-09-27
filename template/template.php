@@ -83,13 +83,13 @@
        <script>
       $('#comic-button').click(function (e){
           $.ajax({
-              type: 'get',
-              url: "/template/comic.php",
+              type: 'post',
+              url: "template/comic.php",
               data: {'random' : true},
-              dataType:"HTML",
+              dataType:"JSON",
               success: function(data)
               {
-                  $('div #comic').html(data) // The server's response is now placed inside your target div
+                  $('#comic').html(data) // The server's response is now placed inside your target div
               },
               error: function()
               {
