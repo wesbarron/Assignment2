@@ -66,23 +66,23 @@
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
     <script src="https://use.fontawesome.com/f1c966bcb4.js"></script>
 
-        <script>
+     <!--   <script>
     $(document).ready(function() {
         $("button").click(function() {
             $.get("template/comic.php", function(data, status) {
                 $("#comic").html(data);
-                
+
             })
         })
     });
-</script>
+</script>-->
 
-       <!--<script>
+       <script>
       $('#comic-button').click(function (e){
           $.ajax({
-              type: 'post',
+              type: 'get',
               url: "template/comic.php",
-              data: {'random' : true},
+              data: {data : true},
               dataType:"JSON",
               success: function(data)
               {
@@ -95,6 +95,6 @@
           }); // Ajax close
           return false; // So the button click does not refresh the page
       }) // Function end
-    </script>-->
+    </script>
     </body>
 </html>
