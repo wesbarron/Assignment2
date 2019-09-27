@@ -12,7 +12,7 @@
     <script>
     $(document).ready(function() {
         $("button").click(function() {
-            $.get("template/comic.php", function(data, status) {
+            $.post("template/comic.php", function(data, status) {
                 $("#comic").html(data);
 
             })
