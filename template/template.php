@@ -47,7 +47,7 @@
                 <div id="right-align"><?php page_content(); ?><div>
                 <br>
                 <div id="comic">
-                    <?php get_comic(); ?>
+                    <?php first_comic(); ?>
                 </div>
             </article>
         </div>

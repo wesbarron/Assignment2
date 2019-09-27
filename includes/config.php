@@ -11,7 +11,8 @@ function config($key = '')
         'pretty_uri' => false,
         'site_url' => 'https://assignment2randomcomic.herokuapp.com',
         'nav_menu' => [
-            '' => 'Original Comic',
+            '' => 'Home',
+            'originalComic' => 'Original Comic',
             'randomComic' => 'Random Comic'
         ],
         'template_path' => 'template',
