@@ -83,7 +83,7 @@
               type: 'get',
               url: "template/comic.php",
               data: {data : true},
-              dataType:"JSON",
+              dataType:"HTML",
               success: function(data)
               {
                   $('#comic').html(data) // The server's response is now placed inside your target div
