@@ -71,8 +71,7 @@
         $("button").click(function() {
             $.get("template/comic.php", function(data, status) {
                 $("#comic").html(data);
-                alert(status);
-
+                
             })
         })
     });
