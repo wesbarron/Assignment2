@@ -95,6 +95,7 @@
             }
           }); // Ajax close
           return false;
+         }) // Function end
 
         // Ajax to get data from comic.php
 
