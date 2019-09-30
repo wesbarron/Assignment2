@@ -79,7 +79,7 @@
 
        <script>
 
-     $('#comic').on("load", function (e){
+     $('body').on("load", function (e){
           $.ajax({
               type: 'get',
               url: "template/comic.php",
