@@ -81,7 +81,7 @@
 
 
       //$('#comic-button').click(function (e){
-        $('#comic').onload(function (e)){
+        $('#comic').on("load", function (e)){
           $.ajax({
               type: 'get',
               url: "template/comic.php",
