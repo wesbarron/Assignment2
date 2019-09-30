@@ -78,7 +78,7 @@
 </script>-->
 
        <script>
-     document.getElementById("change-comic").addEventListener("onload",displayDate);
+
 
       $('#comic-button').click(function (e){
           $.ajax({
@@ -97,6 +97,8 @@
           }); // Ajax close
           return false; // So the button click does not refresh the page
       }) // Function end
+
+      document.getElementById("comic").addEventListener("onload",displayDate);
     </script>
     </body>
 </html>
