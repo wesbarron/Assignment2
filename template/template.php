@@ -87,7 +87,7 @@
               dataType:"HTML",
               success: function(data)
               {
-                  $('#comic').html(data) // The server's response is now placed inside your target div
+                  $('#change-comic').html(data) // The server's response is now placed inside your target div
               },
               error: function()
               {
