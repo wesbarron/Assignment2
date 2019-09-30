@@ -78,6 +78,8 @@
 </script>-->
 
        <script>
+     document.getElementById("change-comic").addEventListener("onload",displayDate);
+
       $('#comic-button').click(function (e){
           $.ajax({
               type: 'get',
