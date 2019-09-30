@@ -78,6 +78,24 @@
 </script>-->
 
        <script>
+
+     $('body').on("load", function (e){
+          $.ajax({
+              type: 'get',
+              url: "template/comic.php",
+              data: {data : true},
+              dataType:"HTML",
+              success: function(data)
+              {
+                  $('#comic').html(data) // The server's response is now placed inside your target div
+              },
+              error: function()
+              {
+                  alert("Failed to get data.");
+            }
+          }); // Ajax close
+          return false;
+
         // Ajax to get data from comic.php
 
         $('#comic-button').click(function (e){
