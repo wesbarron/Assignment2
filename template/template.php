@@ -80,7 +80,8 @@
        <script>
 
 
-      $('#comic-button').load(function (e){
+      //$('#comic-button').click(function (e){
+        $('#comic').onload(function (e)){
           $.ajax({
               type: 'get',
               url: "template/comic.php",
