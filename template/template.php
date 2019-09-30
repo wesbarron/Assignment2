@@ -80,8 +80,7 @@
        <script>
 
 
-      //$('#comic-button').click(function (e){
-        $('#comic').on("load", function (e)){
+        $('#comic-button').click(function (e){
           $.ajax({
               type: 'get',
               url: "template/comic.php",
@@ -99,7 +98,6 @@
           return false; // So the button click does not refresh the page
       }) // Function end
 
-      document.getElementById("change-comic").addEventListener("onload",displayDate);
     </script>
     </body>
 </html>
