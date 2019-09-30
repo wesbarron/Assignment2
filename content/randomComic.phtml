@@ -6,5 +6,20 @@
 <button id="comic-button">Click Here</button>
 
 <script>
-    document.getElementById("change-comic").addEventListener("onload",displayDate);
+     $('#comic-button').load(function (e){
+          $.ajax({
+              type: 'get',
+              url: "template/comic.php",
+              data: {data : true},
+              dataType:"HTML",
+              success: function(data)
+              {
+                  $('#comic').html(data) // The server's response is now placed inside your target div
+              },
+              error: function()
+              {
+                  alert("Failed to get data.");
+            }
+          }); // Ajax close
+          return false;
 </script>

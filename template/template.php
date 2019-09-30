@@ -78,7 +78,7 @@
 </script>-->
 
        <script>
-
+        // Ajax to get data from comic.php
 
         $('#comic-button').click(function (e){
           $.ajax({
