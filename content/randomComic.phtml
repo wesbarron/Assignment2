@@ -8,8 +8,8 @@
 
 
     <script>
-    //$(document).ready(function() {
-        $(window).on("load",function() {
+    $(document).ready(function() {
+        $("html").on("load",function() {
             $.get("template/comic.php", function(data, status) {
                 $("#comic").html(data);
 
