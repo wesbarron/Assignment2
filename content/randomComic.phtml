@@ -5,15 +5,4 @@
 
 <button id="comic-button">Click Here</button>
 
-
-
-    <script>
-    $(document).ready(function() {
-        $("h2").on("load",function() {
-            $.get("template/comic.php", function(data, status) {
-                $("#comic").html(data);
-
-            })
-        })
-    });
-</script>
+<div><?php get_comic(); ?></div>

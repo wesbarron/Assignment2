@@ -66,27 +66,7 @@
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
     <script src="https://use.fontawesome.com/f1c966bcb4.js"></script>
 
-     <!--   
 
-       <script>
-
-     $('body').on("load", function (e){
-          $.ajax({
-              type: 'get',
-              url: "template/comic.php",
-              data: {data : true},
-              dataType:"HTML",
-              success: function(data)
-              {
-                  $('#change-comic').html(data) // The server's response is now placed inside your target div
-              },
-              error: function()
-              {
-                  alert("Failed to get data.");
-            }
-          }); // Ajax close
-          return false;
-         }) // Function end -->
 <script>
         // Ajax to get data from comic.php
 
