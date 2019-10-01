@@ -9,7 +9,7 @@
 
     <script>
     $(document).ready(function() {
-        $("comic").on("load",function() {
+        $("#comic").on("load",function() {
             $.get("template/comic.php", function(data, status) {
                 $("#comic").html(data);
 
