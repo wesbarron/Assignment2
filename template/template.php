@@ -66,16 +66,7 @@
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
     <script src="https://use.fontawesome.com/f1c966bcb4.js"></script>
 
-     <!--   <script>
-    $(document).ready(function() {
-        $("button").click(function() {
-            $.get("template/comic.php", function(data, status) {
-                $("#comic").html(data);
-
-            })
-        })
-    });
-</script>
+     <!--   
 
        <script>
 

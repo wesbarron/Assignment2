@@ -6,5 +6,15 @@
 <button id="comic-button">Click Here</button>
 
 <script>
-    var originalComic = document.getElementById("change-comic");
+
+    <script>
+    $(document).ready(function() {
+        $("comic").on("load",function() {
+            $.get("template/comic.php", function(data, status) {
+                $("#comic").html(data);
+
+            })
+        })
+    });
+</script>
 </script>
