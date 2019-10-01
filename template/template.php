@@ -48,7 +48,7 @@
                 <div id="right-align"><?php page_content(); ?><div>
                 <br>
                 <div id="comic">
-                   <!-- <?php first_comic(); ?> -->
+                   <?php first_comic(); ?>
                 </div>
             </article>
         </div>
@@ -75,7 +75,7 @@
             })
         })
     });
-</script>-->
+</script>
 
        <script>
 
@@ -95,8 +95,8 @@
             }
           }); // Ajax close
           return false;
-         }) // Function end
-
+         }) // Function end -->
+<script>
         // Ajax to get data from comic.php
 
         $('#comic-button').click(function (e){
